@@ -1144,7 +1144,11 @@ a:focus {
   outline: none;
 }
 
-.h-262{
+.h-262 {
 
-height: 262px;
+  height: 262px;
+}
+
+.h-395 {
+  height: 395px;
 }
