@@ -1,4 +1,18 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1980px) {
+  .carousel-item img {
+    max-height: 450px;
+    /* Imposta l'altezza massima dell'immagine */
+    margin: 0 auto;
+    /* Centra l'immagine */
+    width: 350px !important;
+  }
+  
+}
+@media (min-width: 992px) {
+  .hero_area {
+    margin-top: 79px;
+  }
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -63,6 +77,13 @@
 
   .info_section .info_contact .link-box .img-box {
     margin-right: 8px;
+  }
+  .carousel-item img {
+    max-height: 450px;
+    /* Imposta l'altezza massima dell'immagine */
+    margin: 0 auto;
+    /* Centra l'immagine */
+    width: 350px !important;
   }
 
 

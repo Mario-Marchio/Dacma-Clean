@@ -465,7 +465,7 @@ a:focus {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 25px;
 }
 
@@ -1103,7 +1103,7 @@ a:focus {
   position: relative;
   border-radius: 8px;
   background: hsl(248, 53%, 58%);
-  padding: 16px 32px;
+  padding: 16px 20px;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -1113,7 +1113,7 @@ a:focus {
   font-size: 1rem;
   transform: translateY(-4px);
   transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
-  width: 210px;
+  width: 328px;
 }
 
 .pushable:hover {
@@ -1142,4 +1142,9 @@ a:focus {
 
 .pushable:focus:not(:focus-visible) {
   outline: none;
+}
+
+.h-262{
+
+height: 262px;
 }
